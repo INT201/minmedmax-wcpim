@@ -13,13 +13,13 @@ function minMedMax(num1, num2, num3) {
     let maxx = numberr[0]
   
   for(const value of numberr){
-  if (value < minn) {
-     minn = value
+  if (value > maxx) {
+     maxx = value
   }
   }
   for(const value of numberr){
-    if ( value > maxx){
-      maxx = value
+    if ( value < minn){
+      minn = value
     }
   }
   for(const value of numberr){
