@@ -8,17 +8,17 @@ function minMedMax(num1, num2, num3) {
 
 for(const value of numberr){
 if (value < minn) {
-  return minn = value
+  minn = value
 }
 }
 for(const value of numberr){
   if ( value > maxx){
-    return maxx = value
+     maxx = value
   }
 }
 for(const value of numberr){
  if (value != maxx && value != minn) { 
-return medd = value}
+medd = value}
 
 if(num1 === num2){
     medd = num1
