@@ -12,7 +12,7 @@ if (numberr < minn) {
 }
 
 
-  if ( numberr > maxx){
+  else if ( numberr > maxx){
     return maxx = numberr
   }
 
