@@ -18,8 +18,11 @@ for(value of numberr){
 }
 for(value of numberr){
  if (value != maxx && value != minn) { 
-return medd = numberr
-  }
+return medd = numberr}
+  if (numberr = maxx) {
+    return medd = numberr}
+    if (numberr = minn) {
+      return medd = numberr}
 }
 
 
