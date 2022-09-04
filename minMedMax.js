@@ -19,14 +19,21 @@ for(const value of numberr){
 for(const value of numberr){
  if (value != maxx && value != minn) { 
 return medd = value}
-  if (value = maxx) {
-    return medd = value}
-    if (value= minn) {
-      return medd = value}
+
+if(num1 === num2){
+    medd = num1
+}
+
+if(num1 === num3){
+    medd = num1
+}
+
+if(num2 === num3){
+    medd = num2
 }
 }
 return {min: minn, mid: medd, max: maxx};
 
-
+}
 module.exports = minMedMax
 
