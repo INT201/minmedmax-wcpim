@@ -7,22 +7,22 @@ function minMedMax(num1, num2, num3) {
   let maxx = numberr[0]
 
 for(const value of numberr){
-if (numberr < minn) {
-  return minn = numberr
+if (value < minn) {
+  return minn = value
 }
 }
 for(const value of numberr){
-  if ( numberr > maxx){
-    return maxx = numberr
+  if ( value > maxx){
+    return maxx = value
   }
 }
 for(const value of numberr){
  if (value != maxx && value != minn) { 
-return medd = numberr}
-  if (numberr = maxx) {
-    return medd = numberr}
-    if (numberr = minn) {
-      return medd = numberr}
+return medd = value}
+  if (value = maxx) {
+    return medd = value}
+    if (value= minn) {
+      return medd = value}
 }
 
 
