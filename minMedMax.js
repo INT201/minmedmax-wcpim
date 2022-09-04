@@ -6,25 +6,26 @@ function minMedMax(num1, num2, num3) {
   let medd = numberr[0]
   let maxx = numberr[0]
 
-
-if (numberr < minn) {
-  minn = value
+for(const value of numberr){
+if (value < minn) {
+  return minn = value
 }
-
-
-  if ( numberr> maxx){
-     maxx = value
+}
+for(const value of numberr){
+  if ( value > maxx){
+    return maxx = value
   }
-
-
- else {if (numberr != maxx && numberr != minn) { 
-return medd = numberr}
-  if (numberr = maxx) {
-    medd = numberr}
-    if (numberr= minn) {
-       medd = numberr}
+}
+for(const value of numberr){
+ if (value != maxx && value != minn) { 
+return medd = value}
+  if (value = maxx) {
+    return medd = value}
+    if (value= minn) {
+      return medd = value}
 }
 }
+return {min: minn, mid: medd, max: maxx};
 
 
 module.exports = minMedMax
