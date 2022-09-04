@@ -17,7 +17,7 @@ for(value of numberr){
   }
 }
 for(value of numberr){
- if  {
+ if (value != maxx && value != minn) { 
 return medd = numberr
   }
 }
