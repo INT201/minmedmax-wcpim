@@ -6,20 +6,21 @@ function minMedMax(num1, num2, num3) {
   let medd = numberr[0]
   let maxx = numberr[0]
 
-// for(value of numberr){
+for(value of numberr){
 if (numberr < minn) {
   return minn = numberr
 }
-
-
-  else if ( numberr > maxx){
+}
+for(value of numberr){
+  if ( numberr > maxx){
     return maxx = numberr
   }
-
- else {
+}
+for(value of numberr){
+ if  {
 return medd = numberr
   }
- 
+}
 
 
 }
