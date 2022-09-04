@@ -9,13 +9,13 @@ const { template } = require('@babel/core')
     let maxx = numberr[0]
   
   for(const value of numberr){
-  if (value > maxx) {
-     maxx = value
+  if (value < minn) {
+     minn = value
   }
   }
   for(const value of numberr){
-    if ( value < minn){
-      minn = value
+    if ( value > maxx){
+      maxx = value
     }
   }
   for(const value of numberr){
