@@ -32,7 +32,7 @@ if(num2 === num3){
     medd = num2
 }
 }
-return {min: minn, mid: medd, max: maxx};
+ {min: minn, mid: medd, max: maxx};
 
 }
 module.exports = minMedMax
